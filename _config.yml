@@ -1,0 +1,8 @@
+# Site settings
+description: personal website of jana e. beck
+email: jana.eliz.beck@gmail.com
+encoding: utf-8
+permalink: /blog/:year/:month/:day/:title/
+timezone: US/Pacific
+title: jana e. beck
+url: "http://janabeck.com" # the base hostname & protocol for your site

@@ -1,0 +1,10 @@
+.post-body {
+  ol, ul {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 0.875rem;
+
+    @include media-query($on-palm) {
+      font-size: 0.625rem;
+    }
+  }
+}

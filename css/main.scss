@@ -1,0 +1,157 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// colors
+$purple--verydark:  #2E0927;
+$teal--medium:      #04756F;
+$red:               #D90000;
+$orange:            #FF2D00;
+$gold:              #FF8C00;
+
+// breakpoints
+$on-palm:          64rem;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+:root {
+  background-color: lighten($teal--medium, 65%);
+  box-sizing: border-box;
+  color: $purple--verydark;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  line-height: 1.5;
+
+  a {
+    color: darken($red, 10%);
+    text-decoration: none;
+  }
+  a:hover, a:active {
+    color: $purple--verydark;
+    text-decoration: overline;
+  }
+  a:visited {
+    color: darken($teal--medium, 5%);
+    &:hover {
+      color: $purple--verydark;
+    }
+  }
+
+  body {
+    margin: 0;
+  }
+
+  code {
+    @include media-query($on-palm) {
+      font-size: 0.625rem;
+    }
+  }
+
+  figure {
+    display: table;
+    margin: 0 0.25rem 0.75rem;
+    width: fit-content;
+
+    &.center {
+      margin: 0 auto;
+    }
+    &.left {
+      float: left;
+    }
+    &.right {
+      float: right;
+    }
+
+    img {
+      border: 0.5rem solid white;
+      border-radius: 0.25rem;
+      box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+      display: block;
+      @include media-query($on-palm) {
+        max-width: 90%;
+      }
+    }
+    figcaption {
+      font-family: 'Gentium Book Basic', serif;
+      font-size: 0.75rem;
+      @include media-query($on-palm) {
+        font-size: 0.5rem;
+      }
+      padding-top: 0.25rem;
+
+      &.img-width {
+        caption-side: bottom;
+        display: table-caption;
+        font-size: 0.5rem;
+      }
+    }
+  }
+
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+
+  li > p {
+    margin: 0;
+  }
+
+  ol, ul {
+    margin: 0;
+  }
+
+  p {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 0.875rem;
+    @include media-query($on-palm) {
+      font-size: 0.625rem;
+    }
+
+    a:hover, a:active {
+      text-decoration: underline;
+    }
+  }
+
+  pre {
+    background-color: lighten($teal--medium, 70%);
+    line-height: 1.2;
+    overflow-x: scroll;
+  }
+
+  span.aside {
+    color: fade-out($purple--verydark, 0.35);
+  }
+
+  table {
+    background-color: lighten($teal--medium, 70%);
+    th, td {
+      border: 0.1rem solid fade-out($teal--medium, 0.75);
+      padding: 0.25rem 0.5rem;
+    }
+    border: 0.1rem solid fade-out($teal--medium, 0.5);
+    @include media-query($on-palm) {
+      font-size: 0.75rem;
+    }
+  }
+
+  .content {
+    margin: 2rem auto;
+    @include media-query($on-palm) {
+      margin: 0.5rem auto;
+    }
+    max-width: 24rem;
+    @include media-query($on-palm) {
+      max-width: 100%;
+    }
+    padding: 0 0.5rem;
+    @include media-query($on-palm) {
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+@import "header", "home", "post", "posts";

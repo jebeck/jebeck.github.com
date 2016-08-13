@@ -1,0 +1,27 @@
+.posts-title {
+  color: lighten($purple--verydark, 20%);
+
+  @include media-query($on-palm) {
+    font-size: 1rem;
+  }
+}
+
+.posts {
+  @include media-query($on-palm) {
+    font-size: 0.75rem;
+  }
+  list-style-type: none;
+  padding: 0 0 0 0.5rem;
+
+  li {
+    margin: 0.5rem 0;
+  }
+
+  .post-meta {
+    color: fade-out($purple--verydark, 0.35);
+  }
+
+  .post-link {
+    padding: 0 0.25rem;
+  }
+}

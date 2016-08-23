@@ -1,0 +1,51 @@
+#side-projects {
+  margin-bottom: 0.5rem;
+}
+
+#side-projects + h4 {
+  color: lighten($purple--verydark, 10%);
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.project-name {
+  margin-bottom: 0.25rem;
+}
+
+.links {
+  font-size: 0.625rem;
+  @include media-query($on-palm) {
+    font-size: 0.5rem;
+  }
+}
+
+.link {
+  display: inline-block;
+  padding: 0 0.125rem;
+}
+
+.link span {
+  color: #778899;
+}
+
+.technologies span {
+  background-color: lighten($teal--medium, 60%);
+  border-radius: 0.25rem;
+  color: white;
+  display: inline-block;
+  font-size: 0.5rem;
+  @include media-query($on-palm) {
+    font-size: 0.375rem;
+  }
+  padding: 0.125rem 0.375rem;
+}
+
+.associated {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.associated + p {
+  font-size: 0.75rem;
+  margin-top: 0;
+}

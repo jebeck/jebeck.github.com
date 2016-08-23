@@ -1,0 +1,62 @@
+[{
+  "name": "nefelion",
+  "emoji": "☁️",
+  "description": "My personal cloud, for self-tracking and visualizing myriad data types; includes interfaces for manual logging of some types.",
+  "associated": [{
+    "name": "medusa",
+    "emoji": "🐍",
+    "description": "State management for nefelion's interactive data visualizations.",
+    "github": "https://github.com/jebeck/medusa",
+    "npm": "https://www.npmjs.com/package/@jebeck/medusa"
+  }, {
+    "name": "pegasus",
+    "emoji": "🦄",
+    "description": "Data pre-processing for nefelion in a Web Worker.",
+    "github": "https://github.com/jebeck/pegasus",
+    "npm": "https://www.npmjs.com/package/@jebeck/pegasus"
+  }],
+  "technologies": [
+    "CSS modules",
+    "D3",
+    "Firebase",
+    "React",
+    "Web Workers"
+  ],
+  "github": "https://github.com/jebeck/nefelion"
+}, {
+  "name": "dead on Everest",
+  "emoji": "🏔",
+  "description": "An experimental mobile-first visualization of Wikipedia's [list of all the people who have died climbing Mount Everest](https://en.wikipedia.org/wiki/List_of_people_who_died_climbing_Mount_Everest 'Wikipedia: List of people who died climbing Mount Everest') since the beginning of kept records on the subject.",
+  "associated": [{
+    "name": "everest-data",
+    "emoji": "📒",
+    "description": "JSON representation (+ JSON Schema validation) of the Wikipedia data.",
+    "github": "https://github.com/jebeck/everest-data",
+    "npm": "https://www.npmjs.com/package/everest-data"
+  }],
+  "technologies": [
+    "D3",
+    "React"
+  ],
+  "github": "https://github.com/jebeck/dead-on-everest"
+}, {
+  "name": "20(16) in 2016",
+  "emoji": "🎨",
+  "description": "A code art \"obstacle course\" I've set myself in the year 2016. [Read more on the project website](http://janabeck.com/twenty-sixteen/about/ '20(16) in 2016: About').",
+  "technologies": [
+    "CSS",
+    "HTML",
+    "SVG"
+  ],
+  "link": "http://codepen.io/collection/XEPVNq/"
+}, {
+  "name": "steel-can coffee",
+  "emoji": "☕️",
+  "description": "An experimental responsive & interactive data visualization of the data from [Thrillist's cupping of grocery store coffees](https://www.thrillist.com/drink/nation/what-s-the-best-grocery-store-coffee-folgers-chock-full-onuts 'Thrillist: The Best Grocery Store Coffees').",
+  "technologies": [
+    "D3",
+    "SVG"
+  ],
+  "github": "https://github.com/jebeck/steel-can-coffee",
+  "link": "http://janabeck.com/steel-can-coffee/"
+}]

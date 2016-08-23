@@ -1,0 +1,10 @@
+.speaking {
+  @include readable();
+  ul {
+    list-style-type: none;
+    li {
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

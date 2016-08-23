@@ -3,8 +3,8 @@ layout: default
 title: archive
 ---
 
-<div class="archive">
-  <h2 class="posts-title" id="maincontent">all blog posts</h2>
+<section class="archive">
+  <h2 class="posts-title">all blog posts</h2>
   <ul class="posts">
     {% for post in site.posts %}
     <li>
@@ -15,4 +15,4 @@ title: archive
     </li>
     {% endfor %}
   </ul>
-</div>
+</section>

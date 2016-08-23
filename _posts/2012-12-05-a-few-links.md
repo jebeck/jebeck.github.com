@@ -5,7 +5,7 @@ date: 2012-12-05
 tags: [diabetes, Quantified Self, Diabetes Mine]
 ---
 
-*I thought it would be a good idea to gather up all the links to the various places around the internet where I've talked about my diabetes in the last six months. So...*
+*I thought it would be a good idea to gather up all the links to the various places around the Internet where I've talked about my diabetes in the last six months. So...*
 
 ### Quantified Self
 

@@ -1,0 +1,7 @@
+.about {
+  @include readable();
+  @include toc();
+  summary {
+    color: fade-out($purple--verydark, 0.35);
+  }
+}

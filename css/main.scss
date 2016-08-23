@@ -13,10 +13,44 @@ $gold:              #FF8C00;
 // breakpoints
 $on-palm:          64rem;
 
+// mixins
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin readable() {
+  ol, ul {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 0.875rem;
+
+    @include media-query($on-palm) {
+      font-size: 0.625rem;
     }
+  }
+}
+
+@mixin toc() {
+  details {
+    float: right;
+    @include media-query($on-palm) {
+      float: none;
+    }
+    ul {
+      font-family: 'Lato', sans-serif;
+    }
+    a {
+      text-decoration: underline;
+
+      &:hover, &:active {
+        text-decoration: underline;
+      }
+    }
+    summary:focus {
+      outline: none;
+    }
+  }
 }
 
 :root {
@@ -31,8 +65,8 @@ $on-palm:          64rem;
     color: darken($red, 10%);
     text-decoration: none;
   }
-  a:hover, a:active {
-    color: $purple--verydark;
+  a:hover, a.active {
+    color: $purple--verydark !important;
     text-decoration: overline;
   }
   a:visited {
@@ -92,7 +126,8 @@ $on-palm:          64rem;
     }
   }
 
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
+    color: lighten($purple--verydark, 20%);
     line-height: 1.2;
   }
 
@@ -106,7 +141,7 @@ $on-palm:          64rem;
 
   p {
     font-family: 'Gentium Book Basic', serif;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     @include media-query($on-palm) {
       font-size: 0.625rem;
     }
@@ -152,6 +187,11 @@ $on-palm:          64rem;
       padding: 0 0.5rem;
     }
   }
+
+  .ipa {
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
 }
 
-@import "header", "home", "post", "posts";
+@import "about", "contact", "header", "home", "post", "posts", "projects", "resume", "speaking";

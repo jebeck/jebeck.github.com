@@ -1,3 +1,21 @@
+.post-meta {
+  .post-title {
+    font-size: 1.75rem;
+    margin-bottom: 0.375rem;
+  }
+  .post-tag {
+    @include tag();
+  }
+}
+
 .post-body {
   @include readable();
+
+  .footnotes ol, .footnotes p {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 0.625rem;
+    @include media-query($on-palm) {
+      font-size: 0.5rem;
+    }
+  }
 }

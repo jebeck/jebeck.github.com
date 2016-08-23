@@ -8,10 +8,16 @@
   margin-bottom: 0.75rem;
 }
 
-h2 + ul {
+#where-to-find-me-on-the-web ~ ul, #other-ways-to-get-in-touch ~ ul {
   list-style-type: none;
   li {
+    @include media-query($on-palm) {
+      font-size: 0.75rem;
+    }
     margin-bottom: 0.5rem;
+  }
+  @include media-query($on-palm) {
+    padding-left: 0.25rem;
   }
 }
 

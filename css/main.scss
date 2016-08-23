@@ -31,6 +31,19 @@ $on-palm:          64rem;
   }
 }
 
+@mixin tag() {
+  background-color: lighten($teal--medium, 60%);
+  border-radius: 0.25rem;
+  color: $purple--verydark;
+  display: inline-block;
+  font-size: 0.5rem;
+  @include media-query($on-palm) {
+    font-size: 0.375rem;
+  }
+  font-weight: 300;
+  padding: 0.125rem 0.375rem;
+}
+
 @mixin toc() {
   details {
     float: right;
@@ -194,4 +207,4 @@ $on-palm:          64rem;
   }
 }
 
-@import "about", "contact", "header", "home", "post", "posts", "projects", "resume", "speaking";
+@import "about", "contact", "footer", "header", "home", "post", "posts", "projects", "resume", "speaking";

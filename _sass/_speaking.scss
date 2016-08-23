@@ -2,8 +2,14 @@
   @include readable();
   ul {
     list-style-type: none;
+    @include media-query($on-palm) {
+      padding-left: 0;
+    }
     li {
       font-size: 0.75rem;
+      @include media-query($on-palm) {
+        font-size: 0.625rem;
+      }
       margin-bottom: 0.5rem;
     }
   }

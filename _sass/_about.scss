@@ -3,5 +3,11 @@
   @include toc();
   summary {
     color: fade-out($purple--verydark, 0.35);
+    @include media-query($on-palm) {
+      font-size: 0.75rem;
+    }
+  }
+  h3, h4 {
+    margin-bottom: 0.5rem;
   }
 }

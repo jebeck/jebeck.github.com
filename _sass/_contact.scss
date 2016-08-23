@@ -1,0 +1,23 @@
+#other-ways-to-get-in-touch {
+  margin-bottom: 0.5rem;
+}
+
+#other-ways-to-get-in-touch + h4 {
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h2 + ul {
+  list-style-type: none;
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.footnotes {
+  ol, p {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.625rem;
+  }
+}

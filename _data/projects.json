@@ -40,16 +40,6 @@
   ],
   "github": "https://github.com/jebeck/dead-on-everest"
 }, {
-  "name": "20(16) in 2016",
-  "emoji": "🎨",
-  "description": "A code art \"obstacle course\" I've set myself in the year 2016. [Read more on the project website](http://janabeck.com/twenty-sixteen/about/ '20(16) in 2016: About').",
-  "technologies": [
-    "CSS",
-    "HTML",
-    "SVG"
-  ],
-  "link": "http://codepen.io/collection/XEPVNq/"
-}, {
   "name": "steel-can coffee",
   "emoji": "☕️",
   "description": "An experimental responsive & interactive data visualization of the data from [Thrillist's cupping of grocery store coffees](https://www.thrillist.com/drink/nation/what-s-the-best-grocery-store-coffee-folgers-chock-full-onuts 'Thrillist: The Best Grocery Store Coffees').",

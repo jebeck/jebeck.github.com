@@ -18,4 +18,30 @@
       font-size: 0.5rem;
     }
   }
+
+  blockquote {
+    background-color: lighten($teal--medium, 67.5%);
+    border: 0.075rem dashed $teal--medium;
+    padding: 0.25rem 0.5rem;
+    p {
+      margin: 0;
+    }
+  }
+
+  *:not(pre) > code {
+    background-color: $teal--verylight;
+    color: $teal--dark;
+    padding-bottom: 0.125rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  pre {
+    font-size: 0.75rem;
+    padding: 0.125rem 0.25rem;
+  }
+
+  ul > li, ol > li {
+    font-size: 0.75rem;
+  }
 }

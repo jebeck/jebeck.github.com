@@ -19,15 +19,15 @@
 JavaScript:
 
   - single-page apps with latest tools & frameworks ([React](https://facebook.github.io/react/ 'React'), [React Router](https://github.com/reactjs/react-router#readme 'GitHub: React Router README'), [redux](http://redux.js.org/ 'redux'))
-  - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in SVG and/or Canvas
-  - unit testing ([Mocha](https://mochajs.org/ 'Mocha JavaScript test framework') + [Chai](http://chaijs.com/ 'Chai assertion library'); set up with [Karma](https://karma-runner.github.io/1.0/index.html 'Karma test runner') and either [Travis CI](https://travis-ci.org/ 'Travis CI') or [Circle CI](https://circleci.com/ 'CircleCI'))
+  - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in SVG
+  - unit testing ([Jest](https://facebook.github.io/jest/ 'Jest: Painless JavaScript testing') or [Mocha](https://mochajs.org/ 'Mocha JavaScript test framework') + [Chai](http://chaijs.com/ 'Chai assertion library'); set up with [Karma](https://karma-runner.github.io/1.0/index.html 'Karma test runner') and either [Travis CI](https://travis-ci.org/ 'Travis CI') or [Circle CI](https://circleci.com/ 'CircleCI'))
   - real-time apps on a BaaS ([Firebase](https://firebase.google.com/ 'Firebase') or [Horizon](http://horizon.io/ 'Horizon'))
 
 HTML5 & CSS3:
 
   - compliance with web standards and WCAG 2.0 for accessibility
   - experience with major CSS preprocessors ([Less](http://lesscss.org/ 'Less CSS'), [Sass](http://sass-lang.com/ 'Sass: CSS with superpowers'), [PostCSS](http://postcss.org/ 'PostCSS'))
-  - modularity and componentization with [CSS modules](https://github.com/css-modules/css-modules#readme 'GitHub: CSS modules README')
+  - modularity and componentization with [CSS modules](https://github.com/css-modules/css-modules#readme 'GitHub: CSS modules README') and/or [styled components 💅](https://github.com/styled-components/styled-components 'GitHub: styled-components 💅')
 
 other:
 
@@ -41,8 +41,9 @@ other:
 
 JavaScript:
 
+  - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in Canvas
   - end-to-end testing with [Nightwatch.js](http://nightwatchjs.org/ 'Nightwatch.js')
-  - command-line tools and server-side JavaScript with [node](https://nodejs.org/en/ 'node JavaScript runtime')
+  - command-line tools and server-side JavaScript with [Node](https://nodejs.org/en/ 'node JavaScript runtime')
 
 Python:
 
@@ -61,6 +62,7 @@ Python:
 - native iOS and Android application development with [React Native](https://facebook.github.io/react-native/ 'React Native')
 - native iOS application development with [Swift](https://developer.apple.com/swift/ 'Swift programming language')
 - learn a functional language (most likely [elm](http://elm-lang.org/ 'elm: the best of functional programming in your browser') or [Clojure](https://clojure.org/ 'Clojure') and/or [ClojureScript](http://clojure.org/about/clojurescript 'ClojureScript'))
+- learn to use [ReactiveX](http://reactivex.io/ 'ReactiveX'), most likely [RxJS](https://github.com/ReactiveX/rxjs 'GitHub: RxJS')
 - theory & use of static analysis tools (e.g., [flow](https://flowtype.org/ 'flow: a static type checker for JavaScript'))
 
 ## noteworthy projects

@@ -36,7 +36,8 @@
   }],
   "technologies": [
     "D3",
-    "React"
+    "React",
+    "SVG"
   ],
   "github": "https://github.com/jebeck/dead-on-everest"
 }, {

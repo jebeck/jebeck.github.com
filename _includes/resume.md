@@ -18,8 +18,9 @@
 
 JavaScript:
 
-  - single-page apps with latest tools & frameworks ([React](https://facebook.github.io/react/ 'React'), [React Router](https://github.com/reactjs/react-router#readme 'GitHub: React Router README'), [redux](http://redux.js.org/ 'redux'))
+  - single-page apps with the latest tools & frameworks ([React](https://facebook.github.io/react/ 'React'), [React Router](https://github.com/reactjs/react-router#readme 'GitHub: React Router README'), [Redux](http://redux.js.org/ 'redux'))
   - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in SVG
+  - UI and data visualization animation with CSS3, D3 transitions, the [React Animation Add-Ons](https://facebook.github.io/react/docs/animation.html 'React Animation Add-Ons'), [React Motion](https://github.com/chenglou/react-motion 'GitHub: React Motion'), and/or [GreenSock](https://greensock.com/ 'GreenSock')
   - unit testing ([Jest](https://facebook.github.io/jest/ 'Jest: Painless JavaScript testing') or [Mocha](https://mochajs.org/ 'Mocha JavaScript test framework') + [Chai](http://chaijs.com/ 'Chai assertion library'); set up with [Karma](https://karma-runner.github.io/1.0/index.html 'Karma test runner') and either [Travis CI](https://travis-ci.org/ 'Travis CI') or [Circle CI](https://circleci.com/ 'CircleCI'))
   - real-time apps on a BaaS ([Firebase](https://firebase.google.com/ 'Firebase') or [Horizon](http://horizon.io/ 'Horizon'))
 
@@ -41,7 +42,7 @@ other:
 
 JavaScript:
 
-  - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in Canvas
+  - Canvas-rendered interactive data visualization with D3 and/or React
   - end-to-end testing with [Nightwatch.js](http://nightwatchjs.org/ 'Nightwatch.js')
   - command-line tools and server-side JavaScript with [Node](https://nodejs.org/en/ 'node JavaScript runtime')
 
@@ -73,7 +74,7 @@ Currently leading development of Tidepool's data visualization libraries [tideli
 
 ### 🚀 Redux Migrations at Tidepool
 
-Led the migration of Tidepool's [uploader](https://github.com/tidepool-org/chrome-uploader 'GitHub: chrome-uploader') (a Chrome app) and [blip](https://github.com/tidepool-org/blip 'GitHub: blip') (a web application) to use [redux](http://redux.js.org/ 'redux') for state management, vastly increasing test coverage for both applications in the process.
+Led the migration of Tidepool's [uploader](https://github.com/tidepool-org/chrome-uploader 'GitHub: chrome-uploader') (a Chrome app) and [blip](https://github.com/tidepool-org/blip 'GitHub: blip') (a web application) to use [Redux](http://redux.js.org/ 'Redux') for state management, vastly increasing test coverage for both applications in the process.
 
 ### 🕰 "Bootstrapping" to UTC at Tidepool
 

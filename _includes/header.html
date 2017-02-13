@@ -14,7 +14,7 @@
 
     <div class="pages">
       {% for node in site.pages %}
-        {% if node.title %}
+        {% if node.title and node.title != 'home' %}
           {% if page.url == node.url %}
             <a class="page-link active" href="{{ node.url | prepend: site.baseurl }}">
               {{ node.title }}

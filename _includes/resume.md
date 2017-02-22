@@ -33,6 +33,7 @@ HTML5 & CSS3:
 other:
 
   - version control with [git](https://git-scm.com/ 'git') & [GitHub](https://github.com/ 'GitHub')
+  - managing internal and external dependencies with [npm](https://www.npmjs.com/ 'npm')
   - building project pages & documentation on [GitHub Pages](https://pages.github.com/ 'GitHub Pages') with [jekyll](https://jekyllrb.com/ 'jekyll') and/or [GitBook](https://github.com/GitbookIO/gitbook#readme 'GitHub: GitBook README')
   - [Markdown](https://daringfireball.net/projects/markdown/ 'Markdown')
 

@@ -13,7 +13,7 @@ title: projects
   <div class="links">
     {% if project.link %}
       <div class="link">
-        <span>&lt;</span><a href='{{ project.link }}'>view live</a><span>&gt;</span>
+        <span>&lt;</span><a href='{{ project.link }}' title='Go to {{ project.name }}'>view live</a><span>&gt;</span>
       </div>
     {% endif %}
     {% if project.github %}

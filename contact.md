@@ -10,7 +10,7 @@ title: contact
 - CodePen: [@jebeck](http://codepen.io/jebeck/ 'CodePen: @jebeck')
 - bl.ocks.org: [@jebeck](http://bl.ocks.org/jebeck 'bl.ocks.org: @jebeck')
 - LinkedIn: [Jana Beck](https://www.linkedin.com/in/jana-beck-05b780103 'my profile on LinkedIn')
-- I also belong to various & sundry coding-related Slacks and Reactiflux on Discord, always under the handle @**jebeck**.
+- I also belong to various & sundry coding-related Slacks, always under the handle @**jebeck**.
 
 ## other ways to get in touch
 
@@ -21,6 +21,6 @@ title: contact
 
 * * * * *
 
-[^a]: I am also [@janabeck](https://github.com/janabeck 'GitHub: @janabeck') on GitHub; the latter account holds my older academic work from my time as a Ph.D. student in linguistics at the University of Pennsylvania. If that's the work of mine you're interested in, you may be more interested in [my academic website](http://www.ling.upenn.edu/~janabeck/ 'Penn Linguistics: Jana Beck').
+[^a]: I am also [@janabeck](https://github.com/janabeck 'GitHub: @janabeck') on GitHub; this account holds my older academic work from my time as a Ph.D. student in linguistics at the University of Pennsylvania. If that's the work of mine you're interested in, you may be more interested in [my academic website](http://www.ling.upenn.edu/~janabeck/ 'Penn Linguistics: Jana Beck'), preserved for posterity.
 
 [^b]: I don't tweet all that often, but I *do* respond promptly to @mentions and DMs.

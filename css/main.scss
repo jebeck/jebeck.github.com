@@ -74,7 +74,7 @@ $on-palm:          64rem;
   color: $purple--verydark;
   font-family: 'Lato', sans-serif;
   font-size: 32px;
-  line-height: 1.5;
+  line-height: 1.6;
 
   a {
     color: darken($red, 10%);
@@ -174,6 +174,15 @@ $on-palm:          64rem;
 
   span.aside {
     color: fade-out($purple--verydark, 0.35);
+  }
+
+  sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+  sub {
+    top: 0.4em;
   }
 
   table {

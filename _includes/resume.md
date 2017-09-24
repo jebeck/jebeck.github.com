@@ -22,7 +22,7 @@ JavaScript:
   - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in SVG
   - UI and data visualization animation with CSS3, D3 transitions, the [React Animation Add-Ons](https://facebook.github.io/react/docs/animation.html 'React Animation Add-Ons'), [React Motion](https://github.com/chenglou/react-motion 'GitHub: React Motion'), and/or [GreenSock](https://greensock.com/ 'GreenSock')
   - unit testing ([Jest](https://facebook.github.io/jest/ 'Jest: Painless JavaScript testing') or [Mocha](https://mochajs.org/ 'Mocha JavaScript test framework') + [Chai](http://chaijs.com/ 'Chai assertion library'); set up with [Karma](https://karma-runner.github.io/1.0/index.html 'Karma test runner') and either [Travis CI](https://travis-ci.org/ 'Travis CI') or [Circle CI](https://circleci.com/ 'CircleCI'))
-  - real-time apps on a BaaS ([Firebase](https://firebase.google.com/ 'Firebase') or [Horizon](http://horizon.io/ 'Horizon'))
+  - real-time apps on a BaaS (e.g., [Firebase](https://firebase.google.com/ 'Firebase')))
 
 HTML5 & CSS3:
 
@@ -43,9 +43,12 @@ other:
 
 JavaScript:
 
+  - server-rendered React apps with [Next.js](https://github.com/zeit/next.js/ 'GitHub: Next.js')
   - Canvas-rendered interactive data visualization with D3 and/or React
+  - WebGL-rendered interactive data visualization with D3 and/or React via [three.js](https://threejs.org/ 'three.js')
   - end-to-end testing with [Nightwatch.js](http://nightwatchjs.org/ 'Nightwatch.js')
   - command-line tools and server-side JavaScript with [Node](https://nodejs.org/en/ 'node JavaScript runtime')
+  - static typing in JavaScript with [flow](https://flowtype.org/ 'flow: a static type checker for JavaScript')
 
 Python:
 
@@ -65,13 +68,12 @@ Python:
 - native iOS application development with [Swift](https://developer.apple.com/swift/ 'Swift programming language')
 - learn a functional language (most likely [elm](http://elm-lang.org/ 'elm: the best of functional programming in your browser') or [Clojure](https://clojure.org/ 'Clojure') and/or [ClojureScript](http://clojure.org/about/clojurescript 'ClojureScript'))
 - learn to use [ReactiveX](http://reactivex.io/ 'ReactiveX'), most likely [RxJS](https://github.com/ReactiveX/rxjs 'GitHub: RxJS')
-- theory & use of static analysis tools (e.g., [flow](https://flowtype.org/ 'flow: a static type checker for JavaScript'))
 
 ## noteworthy projects
 
 ### 📊 Data Visualization at Tidepool
 
-Currently leading development of Tidepool's data visualization libraries [tideline](https://github.com/tidepool-org/tideline 'GitHub: tideline') and [@tidepool/viz](https://github.com/tidepool-org/viz 'GitHub: @tidepool/viz'). Both libraries employ React and D3 to implement UI components for interactive data visualizations in Tidepool's main web application [blip](https://github.com/tidepool-org/blip 'GitHub: blip') as well as utilities for data (pre-)processing and on-the-fly calculation of a variety of statistical measures.
+Lead initial development of Tidepool's data visualization libraries [tideline](https://github.com/tidepool-org/tideline 'GitHub: tideline') and [@tidepool/viz](https://github.com/tidepool-org/viz 'GitHub: @tidepool/viz'). Both libraries employ React and D3 to implement UI components for interactive data visualizations in Tidepool's main web application [blip](https://github.com/tidepool-org/blip 'GitHub: blip') as well as utilities for data (pre-)processing and on-the-fly calculation of a variety of statistical measures.
 
 ### 🚀 Redux Migrations at Tidepool
 
@@ -91,7 +93,9 @@ Contributed to [Annotald](http://annotald.github.io/ 'Annotald'), a WebKit brows
 
 ## employment history
 
-| 2013–present | Software Engineer, Tidepool Project
+| 2017–present | Data Visualization Engineer, Stitch Fix Algorithms
+| | San Francisco, CA |
+| 2013–2017 | Software Engineer, Tidepool Project
 | | San Francisco, CA |
 | 2010–2011 | Teaching Assistant, Linguistics Department, University of Pennsylvania |
 | | Philadelphia, PA |

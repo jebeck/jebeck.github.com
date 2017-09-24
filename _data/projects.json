@@ -1,53 +1,72 @@
-[{
-  "name": "nefelion",
-  "emoji": "☁️",
-  "description": "My personal cloud, for self-tracking and visualizing myriad data types; includes interfaces for manual logging of some types.",
-  "associated": [{
-    "name": "medusa",
-    "emoji": "🐍",
-    "description": "State management for nefelion's interactive data visualizations.",
-    "github": "https://github.com/jebeck/medusa",
-    "npm": "https://www.npmjs.com/package/@jebeck/medusa"
-  }, {
-    "name": "pegasus",
-    "emoji": "🦄",
-    "description": "Data pre-processing for nefelion in a Web Worker.",
-    "github": "https://github.com/jebeck/pegasus",
-    "npm": "https://www.npmjs.com/package/@jebeck/pegasus"
-  }],
-  "technologies": [
-    "CSS modules",
-    "D3",
-    "Firebase",
-    "React",
-    "Web Workers"
-  ],
-  "github": "https://github.com/jebeck/nefelion"
-}, {
-  "name": "dead on Everest",
-  "emoji": "🏔",
-  "description": "An experimental mobile-first visualization of Wikipedia's [list of all the people who have died climbing Mount Everest](https://en.wikipedia.org/wiki/List_of_people_who_died_climbing_Mount_Everest 'Wikipedia: List of people who died climbing Mount Everest') since the beginning of kept records on the subject.",
-  "associated": [{
-    "name": "everest-data",
-    "emoji": "📒",
-    "description": "JSON representation (+ JSON Schema validation) of the Wikipedia data.",
-    "github": "https://github.com/jebeck/everest-data",
-    "npm": "https://www.npmjs.com/package/everest-data"
-  }],
-  "technologies": [
-    "D3",
-    "React",
-    "SVG"
-  ],
-  "github": "https://github.com/jebeck/dead-on-everest"
-}, {
-  "name": "steel-can coffee",
-  "emoji": "☕️",
-  "description": "An experimental responsive & interactive data visualization of the data from [Thrillist's cupping of grocery store coffees](https://www.thrillist.com/drink/nation/what-s-the-best-grocery-store-coffee-folgers-chock-full-onuts 'Thrillist: The Best Grocery Store Coffees').",
-  "technologies": [
-    "D3",
-    "SVG"
-  ],
-  "github": "https://github.com/jebeck/steel-can-coffee",
-  "link": "http://janabeck.com/steel-can-coffee/"
-}]
+[
+  {
+    "name": "nefelion",
+    "emoji": "☁️",
+    "description":
+      "My personal cloud, for self-tracking and visualizing myriad data types; includes interfaces for manual logging of some types.",
+    "associated": [
+      {
+        "name": "medusa",
+        "emoji": "🐍",
+        "description":
+          "State management for nefelion's interactive data visualizations.",
+        "github": "https://github.com/jebeck/medusa",
+        "npm": "https://www.npmjs.com/package/@jebeck/medusa"
+      },
+      {
+        "name": "pegasus",
+        "emoji": "🦄",
+        "description": "Data pre-processing for nefelion in a Web Worker.",
+        "github": "https://github.com/jebeck/pegasus",
+        "npm": "https://www.npmjs.com/package/@jebeck/pegasus"
+      }
+    ],
+    "technologies": [
+      "💅 styled components",
+      "D3",
+      "Firebase",
+      "React",
+      "Next.js",
+      "Web Workers"
+    ],
+    "github": "https://github.com/jebeck/nefelion",
+    "docs": "http://janabeck.com/nefelion/"
+  },
+  {
+    "name": "escape the diving bell",
+    "emoji": "👀",
+    "description":
+      "A conceptual prototype of partnerless partner-assisted scanning via webcam-based eye tracking.",
+    "technologies": ["WebGazer.js", "React"],
+    "github": "https://github.com/jebeck/diving-bell",
+    "link": "https://divingbell.io/"
+  },
+  {
+    "name": "dead on Everest",
+    "emoji": "🏔",
+    "description":
+      "An experimental mobile-first visualization of Wikipedia's [list of all the people who have died climbing Mount Everest](https://en.wikipedia.org/wiki/List_of_people_who_died_climbing_Mount_Everest 'Wikipedia: List of people who died climbing Mount Everest') since the beginning of kept records on the subject.",
+    "associated": [
+      {
+        "name": "everest-data",
+        "emoji": "📒",
+        "description":
+          "JSON representation (+ JSON Schema validation) of the Wikipedia data.",
+        "github": "https://github.com/jebeck/everest-data",
+        "npm": "https://www.npmjs.com/package/everest-data"
+      }
+    ],
+    "technologies": ["D3", "React", "SVG"],
+    "github": "https://github.com/jebeck/dead-on-everest",
+    "link": "http://janabeck.com/dead-on-everest/"
+  },
+  {
+    "name": "steel-can coffee",
+    "emoji": "☕️",
+    "description":
+      "An experimental responsive & interactive data visualization of the data from [Thrillist's cupping of grocery store coffees](https://www.thrillist.com/drink/nation/what-s-the-best-grocery-store-coffee-folgers-chock-full-onuts 'Thrillist: The Best Grocery Store Coffees').",
+    "technologies": ["D3", "SVG"],
+    "github": "https://github.com/jebeck/steel-can-coffee",
+    "link": "http://janabeck.com/steel-can-coffee/"
+  }
+]

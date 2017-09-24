@@ -26,6 +26,11 @@ title: projects
         <span>{</span><a href='{{ project.npm }}'>package on npm</a><span>}</span>
       </div>
     {% endif %}
+    {% if project.docs %}
+      <div class="link">
+        <span>(</span><a href='{{ project.docs }}'>docs</a><span>)</span>
+      </div>
+    {% endif %}
   </div>
   <div class="technologies">
     {% for tech in project.technologies %}

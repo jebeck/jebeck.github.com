@@ -1,10 +1,12 @@
 .home {
-  #me-short {
+  #me-job,
+  #me-tagline {
     color: fade-out($purple--verydark, 0.35);
     font-style: italic;
   }
 
-  .footnotes ol, .footnotes p {
+  .footnotes ol,
+  .footnotes p {
     font-family: 'Gentium Book Basic', serif;
   }
 }

@@ -1,1 +1,0 @@
-software engineer. coffee <del>connoisseur</del> snob. world traveler. hobbyist dancer. car-free bike &amp; public transportation commuter. Pw(t1)D.

@@ -75,7 +75,7 @@ I first started tracking my diabetes-related goals at the beginning of January, 
 
 [^a]: That is, this is the argument for not just doubling your pledge with each new attempt at your goal. See [the Beeminder pricing FAQ](https://www.beeminder.com/money "Beeminder FAQ: Pricing") for more.
 
-[^b]: More about the Dexcom in [my post about analyzing my Dexcom data](http://jebeck.github.com/blog/2012/10/12/lessons-learned-from-100/ "Lessons Learned from 100,000+ Blood Glucose Readings").
+[^b]: More about the Dexcom in [my post about analyzing my Dexcom data](/blog/2012/10/12/lessons-learned-from-100/ "Lessons Learned from 100,000+ Blood Glucose Readings").
 
 [^c]: Although I have paid out that much, on two separate goals.
 

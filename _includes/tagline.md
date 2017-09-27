@@ -1,1 +1,1 @@
-I'm all about JavaScript 👩‍💻, data(viz) 📊, ballet 👯‍♀️, travel 🌐, and t1d 💉. also, 🐶s.
+I'm all about JavaScript 👩‍💻, data(viz) 📊, ballet 👯‍♀️, travel 🌐, and t1d 💉. also: movies 🎞️ and doggos 🐶.

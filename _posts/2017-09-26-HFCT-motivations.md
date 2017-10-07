@@ -36,7 +36,7 @@ Finally, I’m piggy-backing on the food logging I’m doing—have I mentioned 
 
 ## Next
 
-The [next post](/blog/2017/09/26/HFCT-plan/) is all about my experimental plan.
+The [next post](/blog/2017/09/26/HFCT-plan/ 'HFCT: The Plan') is all about my experimental plan.
 
 -----
 

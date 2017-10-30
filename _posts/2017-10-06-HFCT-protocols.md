@@ -91,6 +91,10 @@ In truth, I don’t even trust the device memories of the devices I’m working 
 
 🤔...That’s all that I can think of for now. Stayed tuned for the lessons I’ve learned so far from the first of my three experimental segments.
 
+## Next
+
+The [next post](/blog/2017/10/29/HFCT-so-far/ 'HFCT: The story so far') reports on my progress—and particulary on the challenges I faced—in the first two thirds of my HFCT experiment.
+
 -----
 
 [^1]:	With the exception of planned intermittent fasting, which is a whole separate—and fascinating—topic.

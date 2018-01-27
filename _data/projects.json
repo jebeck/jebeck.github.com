@@ -1,38 +1,5 @@
 [
   {
-    "name": "nefelion",
-    "emoji": "☁️",
-    "description":
-      "My personal cloud, for self-tracking and visualizing myriad data types; includes interfaces for manual logging of some types.",
-    "associated": [
-      {
-        "name": "medusa",
-        "emoji": "🐍",
-        "description":
-          "State management for nefelion's interactive data visualizations.",
-        "github": "https://github.com/jebeck/medusa",
-        "npm": "https://www.npmjs.com/package/@jebeck/medusa"
-      },
-      {
-        "name": "pegasus",
-        "emoji": "🦄",
-        "description": "Data pre-processing for nefelion in a Web Worker.",
-        "github": "https://github.com/jebeck/pegasus",
-        "npm": "https://www.npmjs.com/package/@jebeck/pegasus"
-      }
-    ],
-    "technologies": [
-      "💅 styled components",
-      "D3",
-      "Firebase",
-      "React",
-      "Next.js",
-      "Web Workers"
-    ],
-    "github": "https://github.com/jebeck/nefelion",
-    "docs": "http://janabeck.com/nefelion/"
-  },
-  {
     "name": "escape the diving bell",
     "emoji": "👀",
     "description":

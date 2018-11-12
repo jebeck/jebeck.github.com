@@ -18,24 +18,25 @@
 
 JavaScript:
 
-  - single-page apps with the latest tools & frameworks ([React](https://facebook.github.io/react/ 'React'), [React Router](https://github.com/reactjs/react-router#readme 'GitHub: React Router README'), [Redux](http://redux.js.org/ 'redux'))
-  - interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in SVG
-  - UI and data visualization animation with CSS3, D3 transitions, the [React Animation Add-Ons](https://facebook.github.io/react/docs/animation.html 'React Animation Add-Ons'), [React Motion](https://github.com/chenglou/react-motion 'GitHub: React Motion'), and/or [GreenSock](https://greensock.com/ 'GreenSock')
-  - unit testing ([Jest](https://facebook.github.io/jest/ 'Jest: Painless JavaScript testing') or [Mocha](https://mochajs.org/ 'Mocha JavaScript test framework') + [Chai](http://chaijs.com/ 'Chai assertion library'); set up with [Karma](https://karma-runner.github.io/1.0/index.html 'Karma test runner') and either [Travis CI](https://travis-ci.org/ 'Travis CI') or [Circle CI](https://circleci.com/ 'CircleCI'))
-  - real-time apps on a BaaS (e.g., [Firebase](https://firebase.google.com/ 'Firebase')))
+- single-page apps with the latest tools & frameworks ([React](https://facebook.github.io/react/ 'React'), [React Router](https://github.com/reactjs/react-router#readme 'GitHub: React Router README'), [Redux](http://redux.js.org/ 'redux'))
+- interactive data visualization with [D3](https://d3js.org/ 'D3: Data-Driven Documents') and/or React, rendering in SVG
+- UI and data visualization animation with CSS3, D3 transitions, various React animation libraries, and/or [GreenSock](https://greensock.com/ 'GreenSock')
+- unit testing ([Jest](https://facebook.github.io/jest/ 'Jest: Painless JavaScript testing') or [Mocha](https://mochajs.org/ 'Mocha JavaScript test framework') + [Chai](http://chaijs.com/ 'Chai assertion library'); set up with [Karma](https://karma-runner.github.io/1.0/index.html 'Karma test runner') and either [Travis CI](https://travis-ci.org/ 'Travis CI') or [Circle CI](https://circleci.com/ 'CircleCI'))
+- real-time apps on a BaaS (e.g., [Firebase](https://firebase.google.com/ 'Firebase'))
+- interactive Node.js CLI tools using [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/#inquirerjs 'Inquirer.js')
 
 HTML5 & CSS3:
 
-  - compliance with web standards and WCAG 2.0 for accessibility
-  - experience with major CSS preprocessors ([Less](http://lesscss.org/ 'Less CSS'), [Sass](http://sass-lang.com/ 'Sass: CSS with superpowers'), [PostCSS](http://postcss.org/ 'PostCSS'))
-  - modularity and componentization with [CSS modules](https://github.com/css-modules/css-modules#readme 'GitHub: CSS modules README') and/or [styled components 💅](https://github.com/styled-components/styled-components 'GitHub: styled-components 💅')
+- compliance with web standards and WCAG 2.0 for accessibility
+- experience with major CSS preprocessors ([Less](http://lesscss.org/ 'Less CSS'), [Sass](http://sass-lang.com/ 'Sass: CSS with superpowers'), [PostCSS](http://postcss.org/ 'PostCSS'))
+- modularity and componentization with [CSS modules](https://github.com/css-modules/css-modules#readme 'GitHub: CSS modules README'), [styled components 💅](https://github.com/styled-components/styled-components 'GitHub: styled-components 💅'), or [emotion](https://emotion.sh/ 'emotion CSS-in-JS')
 
 other:
 
-  - version control with [git](https://git-scm.com/ 'git') & [GitHub](https://github.com/ 'GitHub')
-  - managing internal and external dependencies with [npm](https://www.npmjs.com/ 'npm')
-  - building project pages & documentation on [GitHub Pages](https://pages.github.com/ 'GitHub Pages') with [jekyll](https://jekyllrb.com/ 'jekyll') and/or [GitBook](https://github.com/GitbookIO/gitbook#readme 'GitHub: GitBook README')
-  - [Markdown](https://daringfireball.net/projects/markdown/ 'Markdown')
+- version control with [git](https://git-scm.com/ 'git') & [GitHub](https://github.com/ 'GitHub')
+- managing internal and external dependencies with [npm](https://www.npmjs.com/ 'npm')
+- building project pages & documentation on [GitHub Pages](https://pages.github.com/ 'GitHub Pages') with [jekyll](https://jekyllrb.com/ 'jekyll') and/or [GitBook](https://github.com/GitbookIO/gitbook#readme 'GitHub: GitBook README')
+- [Markdown](https://daringfireball.net/projects/markdown/ 'Markdown')
 
 ### 🙃 other areas of experience
 
@@ -43,22 +44,21 @@ other:
 
 JavaScript:
 
-  - server-rendered React apps with [Next.js](https://github.com/zeit/next.js/ 'GitHub: Next.js')
-  - Canvas-rendered interactive data visualization with D3 and/or React
-  - WebGL-rendered interactive data visualization with D3 and/or React via [three.js](https://threejs.org/ 'three.js')
-  - end-to-end testing with [Nightwatch.js](http://nightwatchjs.org/ 'Nightwatch.js')
-  - command-line tools and server-side JavaScript with [Node](https://nodejs.org/en/ 'node JavaScript runtime')
-  - static typing in JavaScript with [flow](https://flowtype.org/ 'flow: a static type checker for JavaScript')
+- server-rendered React apps with [Next.js](https://github.com/zeit/next.js/ 'GitHub: Next.js')
+- Canvas-rendered interactive data visualization with D3 and/or React
+- WebGL-rendered interactive data visualization with D3 and/or React via [three.js](https://threejs.org/ 'three.js')
+- end-to-end testing with [Nightwatch.js](http://nightwatchjs.org/ 'Nightwatch.js')
+- static typing in JavaScript with [flow](https://flowtype.org/ 'flow: a static type checker for JavaScript')
 
 Python:
 
-  - scientific computing with [SciPy](https://www.scipy.org/ 'SciPy'), [pandas](http://pandas.pydata.org/ 'pandas: Python data analysis library'), &c
-  - natural language processing with [NLTK](http://www.nltk.org/ 'Python natural language toolkit')
+- scientific computing with [SciPy](https://www.scipy.org/ 'SciPy'), [pandas](http://pandas.pydata.org/ 'pandas: Python data analysis library'), &c
+- natural language processing with [NLTK](http://www.nltk.org/ 'Python natural language toolkit')
 
 [R](https://www.r-project.org/ 'The R project for statistical computing'):
 
-  - statistical data analysis
-  - data visualization with [ggplot2](http://ggplot2.org/ 'ggplot2')
+- statistical data analysis
+- data visualization with [ggplot2](http://ggplot2.org/ 'ggplot2')
 
 ### 🤔 (as of yet undeveloped) interests
 
@@ -71,9 +71,17 @@ Python:
 
 ## noteworthy projects
 
+### ⚛️ AA React at Stitch Fix
+
+Designed and led development of a library of React components for internal use within Stitch Fix’s [Algorithms & Analytics department (“AA”)](https://multithreaded.stitchfix.com/algorithms/ 'Stitch Fix Algorithms'). The components handle data fetching and storage from and to AA’s shared data warehouse and other internal services.
+
+### 👩‍🎤 rappstar and other CLI tools at Stitch Fix
+
+Designed and led development of a wizard-style CLI wrapper around [create-react-app (CRA)](https://facebook.github.io/create-react-app/ 'Create React App') to facilitate quick and beginner-friendly app development by data scientists. The tool customizes the output of CRA to include internal dependencies and configuration. Other CLI tools include a script for building a CRA app and pushing the result to an S3 bucket set up for static web hosting.
+
 ### 📊 Data Visualization at Tidepool
 
-Lead initial development of Tidepool's data visualization libraries [tideline](https://github.com/tidepool-org/tideline 'GitHub: tideline') and [@tidepool/viz](https://github.com/tidepool-org/viz 'GitHub: @tidepool/viz'). Both libraries employ React and D3 to implement UI components for interactive data visualizations in Tidepool's main web application [blip](https://github.com/tidepool-org/blip 'GitHub: blip') as well as utilities for data (pre-)processing and on-the-fly calculation of a variety of statistical measures.
+Led initial development of Tidepool's data visualization libraries [tideline](https://github.com/tidepool-org/tideline 'GitHub: tideline') and [@tidepool/viz](https://github.com/tidepool-org/viz 'GitHub: @tidepool/viz'). Both libraries employ React and D3 to implement UI components for interactive data visualizations in Tidepool's main web application [blip](https://github.com/tidepool-org/blip 'GitHub: blip') as well as utilities for data (pre-)processing and on-the-fly calculation of a variety of statistical measures.
 
 ### 🚀 Redux Migrations at Tidepool
 
@@ -113,4 +121,4 @@ Contributed to [Annotald](http://annotald.github.io/ 'Annotald'), a WebKit brows
 ## education
 
 - M.A. in Linguistics. School of Arts & Sciences, University of Pennsylvania, 2013.
-- B.A. in Individualized Study, *summa cum laude*. Gallatin School, New York University, 2007.
+- B.A. in Individualized Study, _summa cum laude_. Gallatin School, New York University, 2007.
